@@ -1,0 +1,31 @@
+{
+  "name": "@advansedmessenger/protocol",
+  "version": "1.0.2-fix",
+  "description": "Ame protocol client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdvansedMessenger/protocol.git"
+  },
+  "keywords": [
+    "ame",
+    "protocol"
+  ],
+  "author": "magicfun1241",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdvansedMessenger/protocol/issues"
+  },
+  "homepage": "https://github.com/AdvansedMessenger/protocol#readme",
+  "devDependencies": {
+    "@types/ws": "^7.4.2",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "ws": "^7.4.5"
+  }
+}
